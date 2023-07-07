@@ -1,0 +1,23 @@
+seed: 0
+num_epochs: 1000
+dataset:
+  _target_: ddpm.get_dataset
+  data_size: 8000
+  csv_file: assets/shape/dino.csv
+dataloader:
+  _target_: torch.utils.data.DataLoader
+  batch_size: 64
+  shuffle: true
+  drop_last: true
+model:
+  _target_: ddpm.MLP
+  dim_hidden: 64
+  num_hidden_layers: 2
+noise_scheduler:
+  _target_: ddpm.NoiseScheduler
+  beta_start: 1.0e-05
+  beta_end: 0.01
+  num_timesteps: 50
+optimizer:
+  _target_: torch.optim.Adam
+  lr: 0.001
