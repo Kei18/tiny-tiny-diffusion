@@ -2,8 +2,11 @@
 
 ![](./assets/dino.gif)
 
-Tiny-tiny PyTorch implementation of diffusion probabilistic models [1] __for self-study__, based on [this amazing repository (tiny-diffusion)](https://github.com/tanelp/tiny-diffusion).
-All this repo can do is reconstruct a 2D dinosaur 🦖 from random noise (but it's cool, right?)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
+
+Tiny-tiny PyTorch implementation of diffusion probabilistic models [1] __for self-study__, based on [the amazing tiny-diffusion repository](https://github.com/tanelp/tiny-diffusion).
+All this repo, tiny-tiny-diffusion, can do is reconstruct a 2D dinosaur 🦖 from random noise (but it's cool, right?)
 
 Thanks to the simplicity and limited capabilities, the training can be done __in a few minutes with my laptop without GPUs__.
 The inference speed is negligible 🚅.
@@ -54,7 +57,7 @@ A base configuration can be found in `ddpm/train_conf/example.yaml`.
   But it is always good to code it for a better understanding.
   So I searched through some code repositories and found [tiny-diffusion](https://github.com/tanelp/tiny-diffusion).
   Quite impressive!
-  I decided to mimic it.
+  I decided to mimic it for leaning.
 - Although the code in this repository has been rewritten from scratch for self-study, I have heavily referenced tiny-diffusion.
   Therefore, I don't strongly claim authorship.
   Please respect the original repository.
