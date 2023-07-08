@@ -2,8 +2,11 @@
 
 ![](./assets/dino.gif)
 
-Tiny-tiny PyTorch implementation of diffusion probabilistic models [1] for self-study, based on [this amazing repository (tiny-diffusion)](https://github.com/tanelp/tiny-diffusion).
+Tiny-tiny PyTorch implementation of diffusion probabilistic models [1] __for self-study__, based on [this amazing repository (tiny-diffusion)](https://github.com/tanelp/tiny-diffusion).
 All this repo can do is reconstruct a 2D dinosaur 🦖 from random noise (but it's cool, right?)
+
+Thanks to the simplicity and limited capabilities, the training can be done __in a few minutes with my laptop without GPUs__.
+The inference speed is negligible 🚅.
 
 ## setup
 
@@ -57,6 +60,9 @@ A base configuration can be found in `ddpm/train_conf/example.yaml`.
 
 ## notes
 
+- Please remember that I am NOT an ML person.
+  Maybe I made some mistakes.
+  I am still learning!
 - The shape data in `assets/shape` was retrieved from [Data Morph](https://github.com/stefmolin/data-morph/).
 - Setup auto formatting when committing with [pre-commit](https://pre-commit.com/):
 
