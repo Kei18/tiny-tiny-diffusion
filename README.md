@@ -45,6 +45,7 @@ A base configuration can be found in `ddpm/train_conf/example.yaml`.
 ## background
 
 - Okay, so you are interested in diffusion models.
+  Yay!
   But I am not an ML guy.
   Indeed, the original paper [1] was quite difficult to understand without preliminary knowledge.
 - After skimming some blog posts, I came across [2];
@@ -64,6 +65,7 @@ A base configuration can be found in `ddpm/train_conf/example.yaml`.
   Maybe I made some mistakes.
   I am still learning!
 - The shape data in `assets/shape` was retrieved from [Data Morph](https://github.com/stefmolin/data-morph/).
+- As a minimalist, the repo omits positional encodings; it works
 - Setup auto formatting when committing with [pre-commit](https://pre-commit.com/):
 
 ```sh
