@@ -1,3 +1,9 @@
+"""
+Equations are based on:
+Luo, C. Understanding diffusion models: A unified perspective. arXiv preprint arXiv:2208.11970. 2022.
+"""
+
+
 from dataclasses import dataclass
 
 import torch

@@ -188,3 +188,4 @@ pyrightconfig.json
 
 **/local/
 **/.DS_Store
+**/.virtual_documents/

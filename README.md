@@ -33,6 +33,8 @@ poetry run python ddpm/train.py dataset.csv_file=assets/shape/cat.csv
 
 ![](./assets/cat.gif)
 
+The trained model will be saved in `learning_results`.
+
 The training script uses [Hydra](https://hydra.cc/) to specify hyperparameters.
 A base configuration can be found in `ddpm/train_conf/example.yaml`.
 
