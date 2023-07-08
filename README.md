@@ -3,7 +3,6 @@
 ![](./assets/dino.gif)
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white)
 
 Tiny-tiny PyTorch implementation of diffusion probabilistic models [1] __for self-study__, based on [the amazing tiny-diffusion repository](https://github.com/tanelp/tiny-diffusion).
 All this repo, tiny-tiny-diffusion, can do is reconstruct a 2D dinosaur 🦖 from random noise (but it's cool, right?)
